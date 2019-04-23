@@ -8,7 +8,7 @@ public class One {
 		System.out.println("Enter the Sentence");
 		String str = scn.nextLine();
 		String arr[]=str.split(" ");
-		for(int i=0;i<arr.length;i++) {
+		for(int i=arr.length-1;i>=0;i--) {
 			System.out.println(arr[i]+" : "+arr[i].length());
 		}
 	}
