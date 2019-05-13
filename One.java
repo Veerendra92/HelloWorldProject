@@ -14,7 +14,7 @@ public class One {
 			System.out.println(arr[i]+" : "+arr[i].length());
 		}
 		
-		System.out.println(str);
+		System.out.println(str +"!");
 	}
 
 }
