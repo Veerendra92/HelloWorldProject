@@ -6,7 +6,7 @@ public class One {
 		// TODO Auto-generated method stub
 		System.out.println("Hello World");
 		Scanner scn =new Scanner(System.in);
-		System.out.println("Enter the Sentence");
+		System.out.println("Enter The Sentence");
 		String str = scn.nextLine();
 		String arr[]=str.split(" ");
 		//adding comment on this
